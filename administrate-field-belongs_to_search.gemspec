@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(spec)/}) }
   gem.test_files = `git ls-files -z -- {spec}/*`.split("\x0")
 
-  gem.add_dependency 'administrate', '>= 0.3', '< 1.0'
+  gem.add_dependency 'administrate', '>= 0.3', '< 2.0'
   gem.add_dependency 'jbuilder', '~> 2'
   gem.add_dependency 'rails', '>= 4.2', '< 9'
   gem.add_dependency 'selectize-rails', '~> 0.6'
